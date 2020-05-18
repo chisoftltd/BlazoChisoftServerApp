@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazoChisoftServerApp", "BlazoChisoftServerApp\BlazoChisoftServerApp.csproj", "{696FA317-9D31-4C83-9E37-689674417D10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLibrary", "DataAccessLibrary\DataAccessLibrary.csproj", "{E8C6AD3B-DC65-4C16-B861-A22B6E1B242F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{696FA317-9D31-4C83-9E37-689674417D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{696FA317-9D31-4C83-9E37-689674417D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{696FA317-9D31-4C83-9E37-689674417D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C6AD3B-DC65-4C16-B861-A22B6E1B242F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C6AD3B-DC65-4C16-B861-A22B6E1B242F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C6AD3B-DC65-4C16-B861-A22B6E1B242F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C6AD3B-DC65-4C16-B861-A22B6E1B242F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
