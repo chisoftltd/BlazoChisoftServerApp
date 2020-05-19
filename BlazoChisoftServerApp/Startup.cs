@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using BlazoChisoftServerApp.Data;
+using DataAccessLibrary;
 
 namespace BlazoChisoftServerApp
 {
@@ -29,6 +30,9 @@ namespace BlazoChisoftServerApp
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+            services.AddTransient<ISqlDataAccess, SqlDataAccess>();
+            services.AddTransient<ICustomerData, CustomerData>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
